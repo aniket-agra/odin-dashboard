@@ -30,6 +30,16 @@ body {
     grid-column: 2 / -1;
 }
 
+.nav > .container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.nav .row1 {
+    display: grid;
+    grid-template-columns: 14fr 1fr 4fr;
+}
+
 .feed {
     grid-row: 2 / -1;
     grid-column: 2 / -1;
