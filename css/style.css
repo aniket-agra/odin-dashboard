@@ -44,3 +44,8 @@ body {
     grid-row: 2 / -1;
     grid-column: 2 / -1;
 }
+
+.feed > .container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
