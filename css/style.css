@@ -56,3 +56,9 @@ body {
     grid-template-columns: 1fr 1fr;
     gap: 10px;
 }
+
+.feed .col2 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
