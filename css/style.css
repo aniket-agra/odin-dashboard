@@ -68,6 +68,10 @@ body {
     grid-template-rows: 5fr 1fr;
 }
 
+.card .buttons {
+    justify-self: end;
+}
+
 .feed .col2 {
     display: grid;
     grid-template-rows: 1fr 1fr;
