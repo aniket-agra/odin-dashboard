@@ -58,7 +58,7 @@ body {
 
 .feed .col1 {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
 }
@@ -74,6 +74,10 @@ body {
 
 .feed .col2 {
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto 1fr 1fr;
     gap: 10px;
+}
+
+.feed .title {
+    grid-column: 1 / -1;
 }
