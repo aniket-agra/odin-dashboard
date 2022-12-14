@@ -60,6 +60,11 @@ body {
     gap: 10px;
 }
 
+.card {
+    display: grid;
+    grid-template-rows: 5fr 1fr;
+}
+
 .feed .col2 {
     display: grid;
     grid-template-rows: 1fr 1fr;
