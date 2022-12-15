@@ -24,7 +24,7 @@ body {
     gap: 10px;
 }
 
-.sidebar .logo:first-child, .sidebar .title:nth-child(2) {
+.dashboard {
     grid-row: 1 / span 2;
 }
 
