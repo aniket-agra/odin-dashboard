@@ -70,6 +70,12 @@ form {
     align-items: center;
 }
 
+input {
+    border-radius: 10px;
+    margin-left: 10px;
+    width: clamp(150px, 500px, 750px);
+}
+
 .nav .row1 .notification {
     background-image: url('../img/alarm.svg');
     height: 2em;
