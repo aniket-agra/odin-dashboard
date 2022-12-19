@@ -52,6 +52,7 @@ img:first-child {
 .nav .row1 {
     display: grid;
     grid-template-columns: 14fr 1fr 4fr;
+    align-items: center;
 }
 
 .nav .row1 .search {
