@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+* {
+    --searchTextSize : 1.5em;
+}
 
 div {
     border: 1px dashed red;
@@ -59,8 +62,8 @@ img:first-child {
 
 .nav .row1 .search {
     background-image: url('../img/search.svg');
-    height: 2em;
-    width: 2em;
+    height: calc(0.9 * var(--searchTextSize));
+    width: calc(0.9 * var(--searchTextSize));
     background-size: contain;
     background-color: transparent;
     border: none;
@@ -73,19 +76,18 @@ form {
 }
 
 input {
-    --textSize : 1.8em;
-    border-radius: var(--textSize);
+    border-radius: var(--searchTextSize);
     margin-left: 10px;
     max-width: 500px;
     background-color:rgb(231, 231, 231);
     border: none;
-    font-size: var(--textSize);
+    font-size: var(--searchTextSize);
 }
 
 .nav .row1 .notification {
     background-image: url('../img/alarm.svg');
-    height: 2em;
-    width: 2em;
+    height: calc(0.9 * var(--searchTextSize));
+    width: calc(0.9 * var(--searchTextSize));
     background-size: contain;
     background-color: transparent;
     border: none;
