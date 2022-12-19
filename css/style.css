@@ -73,11 +73,13 @@ form {
 }
 
 input {
-    border-radius: 10px;
+    --textSize : 1.8em;
+    border-radius: var(--textSize);
     margin-left: 10px;
     max-width: 500px;
     background-color:rgb(231, 231, 231);
     border: none;
+    font-size: calc(1.2 * var(--textSize));
 }
 
 .nav .row1 .notification {
