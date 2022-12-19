@@ -27,10 +27,15 @@ body {
 
 .dashboard {
     grid-row: 1 / span 2;
+    font-size: 1.5em;
 }
 
 img {
     justify-self: end;
+}
+
+img:first-child {
+    scale: 1.5;
 }
 
 .nav {
