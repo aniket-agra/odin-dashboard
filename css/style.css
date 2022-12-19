@@ -75,7 +75,7 @@ form {
 input {
     border-radius: 10px;
     margin-left: 10px;
-    width: clamp(150px, 500px, 750px);
+    max-width: 500px;
 }
 
 .nav .row1 .notification {
