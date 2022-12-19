@@ -54,6 +54,15 @@ img:first-child {
     grid-template-columns: 14fr 1fr 4fr;
 }
 
+.nav .row1 .search {
+    background-image: url('../img/search.svg');
+    height: 2em;
+    width: 2em;
+    background-size: contain;
+    background-color: transparent;
+    border: none;
+}
+
 .feed {
     grid-row: 2 / -1;
     grid-column: 2 / -1;
