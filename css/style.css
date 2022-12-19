@@ -79,7 +79,7 @@ input {
     max-width: 500px;
     background-color:rgb(231, 231, 231);
     border: none;
-    font-size: calc(1.2 * var(--textSize));
+    font-size: var(--textSize);
 }
 
 .nav .row1 .notification {
