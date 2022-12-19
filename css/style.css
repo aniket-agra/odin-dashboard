@@ -63,6 +63,12 @@ img:first-child {
     border: none;
 }
 
+form {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+}
+
 .feed {
     grid-row: 2 / -1;
     grid-column: 2 / -1;
