@@ -76,6 +76,8 @@ input {
     border-radius: 10px;
     margin-left: 10px;
     max-width: 500px;
+    background-color:rgb(231, 231, 231);
+    border: none;
 }
 
 .nav .row1 .notification {
