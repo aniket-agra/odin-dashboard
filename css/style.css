@@ -69,6 +69,15 @@ form {
     align-items: center;
 }
 
+.nav .row1 .notification {
+    background-image: url('../img/alarm.svg');
+    height: 2em;
+    width: 2em;
+    background-size: contain;
+    background-color: transparent;
+    border: none;
+}
+
 .feed {
     grid-row: 2 / -1;
     grid-column: 2 / -1;
