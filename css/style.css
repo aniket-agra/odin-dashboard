@@ -35,6 +35,7 @@ body {
 
 img {
     justify-self: end;
+    max-height: var(--searchTextSize);
 }
 
 img:first-child {
