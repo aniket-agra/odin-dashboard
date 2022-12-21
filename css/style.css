@@ -29,7 +29,6 @@ body {
 }
 
 .dashboard {
-    /* grid-row: 1 / span 2; */
     align-self: start;
     font-size: var(--searchTextSize);
 }
