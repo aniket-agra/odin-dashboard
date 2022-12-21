@@ -33,12 +33,12 @@ body {
     font-size: var(--searchTextSize);
 }
 
-img {
+.logo {
     justify-self: end;
     max-height: var(--searchTextSize);
 }
 
-img:first-child {
+.logo:first-child {
     scale: 1.5;
 }
 
