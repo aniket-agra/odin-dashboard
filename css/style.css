@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 * {
-    --searchTextSize : 1.5em;
+    --searchTextSize : 1.5rem;
 }
 
 div {
@@ -30,7 +30,7 @@ body {
 
 .dashboard {
     grid-row: 1 / span 2;
-    font-size: 1.5em;
+    font-size: var(--searchTextSize);
 }
 
 img {
