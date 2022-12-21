@@ -40,7 +40,8 @@ body {
 
 .logo:first-child {
     display: grid;
-    scale: 1.5;
+    scale: 1.7;
+    align-self: center;
 }
 
 .nav {
