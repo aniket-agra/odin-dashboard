@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 * {
     --searchTextSize : 1.5rem;
 }
@@ -38,6 +38,12 @@ body {
 .logo {
     justify-self: end;
     max-height: var(--searchTextSize);
+}
+
+.logo.dashboard {
+    display: grid;
+    scale: 1.7;
+    align-self: center;
 }
 
 .title {
