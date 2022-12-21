@@ -39,6 +39,7 @@ body {
 }
 
 .logo:first-child {
+    display: grid;
     scale: 1.5;
 }
 
