@@ -40,12 +40,6 @@ body {
     max-height: var(--searchTextSize);
 }
 
-.logo:first-child {
-    display: grid;
-    scale: 1.7;
-    align-self: center;
-}
-
 .title {
     font-weight: bold;
 }
