@@ -19,7 +19,7 @@ body {
     grid-row: 1 / -1;
     grid-column: 1 / 2;
     display: grid;
-    grid-template-rows: 1fr 4fr 2fr 25fr;
+    grid-template-rows: 1fr 8fr;
     row-gap: 30px;
 }
 
@@ -52,13 +52,20 @@ body {
 
 .sidebar > .container2 {
     display: grid;
+    grid-template-rows: 2fr 1fr 3fr;
+    gap: 30px;
+    align-items: center;
+}
+
+.sidebar .container2a {
+    display: grid;
     grid-template-rows: repeat(6, 1fr);
     grid-template-columns: 1fr 3fr;
     gap: 10px;
     align-items: center;
 }
 
-.sidebar > .container3 {
+.sidebar .container2b {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: 1fr 3fr;
