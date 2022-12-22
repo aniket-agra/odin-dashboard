@@ -31,7 +31,7 @@ body {
 }
 
 .dashboard {
-    align-self: start;
+    align-self: center;
     font-size: var(--searchTextSize);
 }
 
