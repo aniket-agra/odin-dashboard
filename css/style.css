@@ -159,6 +159,12 @@ input {
     border: 1px solid white;
     box-shadow: 2px 2px 4px black;
     border-radius: 8px;
+    background-color: white;
+}
+
+.col1 .card {
+    border-left-color: gold;
+    border-left-width: 4px;
 }
 
 .card .buttons {
