@@ -20,7 +20,6 @@ body {
     grid-column: 1 / 2;
     display: grid;
     grid-template-rows: 1fr 9fr;
-    row-gap: 30px;
 }
 
 .sidebar > .container1 {
