@@ -78,6 +78,9 @@ body {
     grid-column: 2 / -1;
     display: grid;
     grid-template-rows: 1fr 1fr;
+    position: relative;
+    z-index: 1;
+    box-shadow: 2px 0px 4px rgb(157, 157, 157);
 }
 
 .nav .row1 {
