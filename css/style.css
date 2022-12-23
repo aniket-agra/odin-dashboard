@@ -121,6 +121,14 @@ input {
     border: none;
 }
 
+.nav .row2 {
+    display: grid;
+    grid-template-columns: 1fr 6fr repeat(3, 1fr);
+    padding-left: 10px;
+    padding-right: 10px;
+    column-gap: 20px;
+}
+
 .feed {
     grid-row: 2 / -1;
     grid-column: 2 / -1;
