@@ -141,14 +141,16 @@ input {
 
 .feed > .container {
     display: grid;
+    grid-template-rows: auto 1fr;
     grid-template-columns: 3fr 1fr;
-    gap: 10px;
+    column-gap: 10px;
     padding: 10px;
+    grid-auto-flow: column;
 }
 
 .feed .col1 {
     display: grid;
-    grid-template-rows: auto 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
 }
@@ -173,10 +175,7 @@ input {
 
 .feed .col2 {
     display: grid;
-    grid-template-rows: auto 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     gap: 10px;
 }
 
-.feed .title {
-    grid-column: 1 / -1;
-}
