@@ -179,3 +179,7 @@ input {
     gap: 30px;
 }
 
+.feed .col2b {
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
