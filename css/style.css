@@ -157,6 +157,8 @@ input {
     display: grid;
     grid-template-rows: 5fr 1fr;
     border: 1px solid white;
+    box-shadow: 2px 2px 4px black;
+    border-radius: 8px;
 }
 
 .card .buttons {
