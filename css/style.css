@@ -19,7 +19,7 @@ body {
     grid-row: 1 / -1;
     grid-column: 1 / 2;
     display: grid;
-    grid-template-rows: 1fr 8fr;
+    grid-template-rows: 1fr 9fr;
     row-gap: 30px;
 }
 
