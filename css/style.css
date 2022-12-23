@@ -129,6 +129,10 @@ input {
     column-gap: 20px;
 }
 
+.row2 button {
+    align-self: center;
+}
+
 .feed {
     grid-row: 2 / -1;
     grid-column: 2 / -1;
