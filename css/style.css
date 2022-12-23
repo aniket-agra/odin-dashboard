@@ -143,8 +143,8 @@ input {
     display: grid;
     grid-template-rows: auto 1fr;
     grid-template-columns: 3fr 1fr;
-    column-gap: 10px;
-    padding: 10px;
+    column-gap: 30px;
+    padding: 15px;
     grid-auto-flow: column;
 }
 
@@ -152,7 +152,7 @@ input {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr;
-    gap: 10px;
+    gap: 30px;
 }
 
 .card {
@@ -176,6 +176,6 @@ input {
 .feed .col2 {
     display: grid;
     grid-template-rows: 1fr 1fr;
-    gap: 10px;
+    gap: 30px;
 }
 
